@@ -4,13 +4,15 @@ html {
 }
 
 body {
-    background-image: url(../images/camion.jpg);
-    background-size: cover;
-    background-attachment: fixed;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 55px 0 0 0;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 p {
@@ -43,18 +45,46 @@ p {
     color: white;
 }
 
-#nosotros,
-#servicios,
-#contacto {
+#nosotros {
     font-size: 25px;
     background-color: black;
-    padding: 30px 60px 60px 60px;
+    padding: 85px 63px 60px 60px;
+    text-align: center;
+    float: left;
+}
+
+#servicios,
+#info_contacto {
+    font-size: 25px;
+    background-color: black;
+    padding: 60px 60px 60px 60px;
     text-align: center;
 }
 
-#fotoCamion {
-    margin-left: 25%;
-    margin-right: 25%;
+#div_fotoCamion {
+    background-image: url(../images/camion.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-position-y: 17px;
+    overflow: hidden;
+    float: left;
+}
+
+#division {
+    height: 400px;
+    width: 100%;
+}
+
+#div_fotoCamion,
+#nosotros {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+
+#info_contacto {
+    text-align: left;
 }
 
 #tef {
@@ -70,4 +100,4 @@ p {
 
 /* #nav-bar {
     margin: -8px;
-} */
+} *
